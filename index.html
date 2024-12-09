@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Marcela Geremias Rocha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h1>Olá, sou <span>Marcela Geremias Rocha</span>!</h1>
+            <p>Atualmente, estou cursando o 6º período de Análise e Desenvolvimento de Sistemas no IFTM Campus Patrocínio (2022/2024). Minha jornada acadêmica começou com a conclusão do Ensino Médio integrado ao curso técnico em Manutenção e Suporte em Informática no IFTM Campus Patrocínio (2019/2021), onde desenvolvi habilidades práticas e teóricas em tecnologia da informação.</p>
+            <img src="imagens/foto_Marcela.jpeg" alt="Foto de Marcela">
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="grid">
+                <!-- Projeto Connect 4 -->
+                <div class="card">
+                    <img src="imagens/connect_for.png" alt="Connect 4">
+                    <h3>Connect 4</h3>
+                    <p>Este projeto implementa o clássico jogo Connect 4 com a opção de jogar contra uma IA usando dois algoritmos de tomada de decisão: Minimax e Alpha-Beta Pruning. O jogo permite escolher entre esses algoritmos e configurar a profundidade de pesquisa (ply) para testar o desempenho de cada um.</p>
+                </div>
+
+                <!-- Projeto Criptografia -->
+                <div class="card">
+                    <img src="imagens/criptografia1.png" alt="Criptografia">
+                    <h3>Criptografia</h3>
+                    <p>Este projeto foi desenvolvido utilizando o algoritmo AES (Advanced Encryption Standard) para criptografar e descriptografar mensagens de texto. O sistema fornece uma interface simples onde os usuários podem inserir uma mensagem, criptografá-la usando uma chave secreta definida pelo usuário e posteriormente descriptografá-la usando a mesma chave.</p>
+                </div>
+
+                <!-- Projeto Gerador de Senhas -->
+                <div class="card">
+                    <img src="imagens/gerador_de_senhas.png" alt="Gerador de Senhas">
+                    <h3>Gerador de Senhas</h3>
+                    <p>Este projeto é um aplicativo gerador de senha desenvolvido em Android Studio com Kotlin. O aplicativo permite que os usuários criem senhas seguras e personalizáveis, escolhendo opções específicas, como letras maiúsculas e minúsculas, números, caracteres especiais e comprimento da senha.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Digite sua mensagem:" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Marcela Geremias Rocha. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
